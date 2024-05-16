@@ -66,7 +66,7 @@ function WeatherGrid() {
             icon: weather_icon,
           });
 
-          console.log(typeof buffer[0]["date"]);
+
           setRows(buffer);
         }
       })
